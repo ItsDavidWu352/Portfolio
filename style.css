@@ -19,7 +19,6 @@ p{
     text-align: center;
 }
 
-
 .navbar ul li{
     float: left;
     list-style-type: none;
@@ -39,6 +38,37 @@ p{
     text-decoration: underline;
     color: #003566;
 }
+        
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+.aboutcard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
 .contact-btn{
     order: 3;
     color: black;
