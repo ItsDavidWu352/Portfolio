@@ -60,6 +60,8 @@ p{
 }
 .aboutcard {
   background-color: lightgray;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
 }
 
 .container {
@@ -73,7 +75,7 @@ p{
 }
 
 .title {
-  color: grey;
+  color: black;
 }
 
 .logo > img{
@@ -86,6 +88,8 @@ p{
 .card{
     margin: 5px 15px;
     border-radius: 10px;
+    width: 200px;
+    height: 200px;
     display: inline-block;
     overflow: hidden;
 }
