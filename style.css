@@ -59,9 +59,9 @@ p{
   color: white;
 }
 .aboutcard {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  margin: 8px;
+  background-color: lightgray;
 }
+
 .container {
   padding: 0 16px;
 }
@@ -103,19 +103,17 @@ p{
 .gallery{
     margin: 10px 20px;
     border-radius: 10px;
-    width: 500px;
-    height: 250px;
     display: inline-block;
     overflow: hidden;
 }
-.gallery:hover{
+/* .gallery:hover{
   transform: scale(1.7);
   transition: all 0.2s ease-in-out;
   opacity: 80%; 
-}
+} */
 .gallery > img{
-    height: 100%;
-    width: 100%;
+    height: 50%;
+    width: 50%;
 }
 .gallery > video{
     height: 100%;
@@ -197,6 +195,7 @@ button:hover{
     bottom: 0;
   }
   .social-icon, .menu {
+    
   position: relative;
   display: flex;
   justify-content: center;
@@ -221,6 +220,7 @@ button:hover{
 }
 
 .menu__link {
+  
   font-size: 1.2rem;
   color: #fff;
   margin: 0 10px;
@@ -236,12 +236,12 @@ button:hover{
 
   .wave {
     position: absolute;
-    top: -100px;
+    top: -80px;
     left: 0;
     width: 100%;
-    height: 100px;
+    height: 80px;
     background: url("https://i.ibb.co/wQZVxxk/wave.png");
-    background-size: 1000px 100px;
+    background-size: 700px 100px;
   }
   
   .wave#wave1 {
@@ -254,21 +254,21 @@ button:hover{
   .wave#wave2 {
     z-index: 999;
     opacity: 0.5;
-    bottom: 10px;
+    bottom: 5px;
     animation: animate 4s linear infinite !important;
   }
   
   .wave#wave3 {
     z-index: 1000;
     opacity: 0.2;
-    bottom: 15px;
+    bottom: 10px;
     animation: animateWaves 3s linear infinite;
   }
   
   .wave#wave4 {
     z-index: 999;
     opacity: 0.7;
-    bottom: 20px;
+    bottom: 15px;
     animation: animate 3s linear infinite;
   }
   
