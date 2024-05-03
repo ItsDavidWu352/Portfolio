@@ -77,6 +77,7 @@ p{
 
 .title {
   color: black;
+ background-color: lightgray;
 }
 
 .nav-logo > img{
@@ -140,8 +141,8 @@ video{
     border: 1px solid #eae9ed;
     min-height: 400px;
     width: 50%;
-    position: relative; */
-}
+    position: relative;
+} */
 input[type="text"]:focus, textarea:focus{
     border: 1px solid #ccc;
 }
