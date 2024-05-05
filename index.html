@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link 
     href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
 
     <title>Home Page</title>
@@ -23,39 +23,58 @@
             <img src="img/logo.jpg"></li>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
-            <li><a href="projects.html">Projects</a></li>
+            <li><a href="projects.html">Projects</a></li> 
+            <!-- <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Projects
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="projects.html">Game Designs</a>
+                <a class="dropdown-item" href="projects.html">UX/UI Designs</a>
+                <a class="dropdown-item" href="projects.html">Sketches</a>
+              </div>
+            </li> -->
            <li><a href="contact.html">Contact</a></li>
-<!-- 
-           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Information
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="about.html">About</a></li>
-              <li><a class="dropdown-item" href="contact.html">Contact</a></li>
-            </ul>
-          </li>
-            </ul>
-          </div>
-        </div> -->
         </nav>
   </header>
 
  <!--Img Section-->
  <div class="about-section my-4">
-  <h1> Welcome!</h1>
+  <h1> </h1>
   <div class="container"> 
   </div>
   </div>
   
+  <div class="about-section">
+    <div class="row">
+        <div class="col-md-6">
+          <img style="width: 90%; height: 90%; border: 5px solid rgba(0, 0, 0, 0.1);"src="img/David2.jpg"
+          alt=""
+          class="img-fluid">
+        </div>
+        <div class="col-md-5">
+            <h1 class="mt-5">Hello, Welcome! I am <strong>David Wu</strong></h1>
+            <p><small>Game Designer & UX/UI Designer</small><p>
+            <p>I'm a game designer and UX/UI designer, I'm a Front End Developer. I have a passion for designing interactive, responsive and User friendly UI. </p>
+              <a href="contact.html" class="btn btn-primary">Contact Me</a>
+              <div class="row my-2">
+              <a href="David Wu's Resume.pdf" download="Resume">
+                <button type="btn" class="btn btn-primary" >Download Resume</button>
+              </a>
+            <p class="mt-4"></p>
+          </div>
+        </div>
+    </div>
+</div>
+
 <main class="about-section my-4">
   <div class="container">
     <div class="row">
         <div class="col-md-6">
             <iframe style="border: 5px solid rgba(0, 0, 0, 0.1);"  src="https://www.youtube.com/embed/qhz0iQrcBeM" width="95%" height="300" alt="" allowfullscreen></iframe>
         </div>
-        <div class="col-md-4">
-            <h1 class="mt-5">Toy Runner</h1>
+        <div class="col-md-5">
+            <h1 class="mt-5"><strong>Toy Runner</strong></h1>
             <p>This was my first game I designed and created the landscape on Unreal Engine. The content of the game is you are a toy that was left behind in the sandbox and you needed to find a way back into the house.</p>
             <p class="mt-4"></p>
         </div>
@@ -65,7 +84,7 @@
 <div class="container">
   <div class="row">
       <div class="col-md-5">
-          <h1 class="mt-5">Nature's Journey</h1>
+          <h1 class="mt-5"><strong>Nature's Journey</strong></h1>
           <p>This is a game that I design on Unreal Engine. I created a large scale map to have the players feel the immersed in the world I design. I focus on the Landscaping and creating a sandbox to feel as if you are outdoors.</p>
           <p class="mt-4"></p>
           </div>
@@ -112,6 +131,7 @@
       <li class="menu__item"><a class="menu__link" href="index.html">Home</a></li>
       <li class="menu__item"><a class="menu__link" href="about.html">About</a></li>
       <li class="menu__item"><a class="menu__link" href="projects.html">Projects</a></li>
+      
       <li class="menu__item"><a class="menu__link" href="contact.html">Contact</a></li>
     </ul>
     <p>&copy;2024 David Wu | All Rights Reserved</p>
